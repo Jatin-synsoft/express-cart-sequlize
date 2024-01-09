@@ -57,7 +57,7 @@ User inputs are validated during signup and login to ensure data integrity and s
 Users can search and filter products based on keywords or categories, making it easy to find desired items.
 
 ## Getting Started
-
+#### Before start setup your mysql Database
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/express-shopping-cart.git
@@ -74,12 +74,12 @@ Users can search and filter products based on keywords or categories, making it 
 
 4. **Run Migrations:**
    ```bash
-   npx sequelize-cli db:migrate
+   npx sequelize-cli db:migrate // if dont run use it otherwiae dont need this 
    ```
 
 5. **Start the Application:**
    ```bash
-   npm start
+   npm start or nodemon index.js
    ```
 
 6. **Explore and Enjoy!**
